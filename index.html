@@ -3,18 +3,32 @@
   <meta charset="utf-8">
   <title>grelland.io</title>
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" media="all" />
+  <!-- Ugly style overrides -->
+  <style>
+    .large-link {
+        font-size: 2em;
+    }
+    .img-circle {
+        max-width: 40%;
+    }
+  </style>
+
 </head>
 <body class="box">
 
 <div class="container">
 
-  <div class="content" role="main">
-    
-
-<h1>grelland.io</h1>
-<a href="http://no.linkedin.com/in/grelland">LinkedIn</a>
-</div>
-
+    <div class="column-fluid">
+        <div class="span2">
+        <h1>grelland.io</h1>
+        <a href="http://no.linkedin.com/in/grelland" class="large-link" target="__blank">LinkedIn</a>
+        </div>
+    </div>
+    <div class="column-fluid">
+        <div class="span10">
+        <img src="img/halvdan_grelland.jpg" class="img-circle" />
+        </div>
+    </div>
 </div><!-- end container -->
 </body>
 </html>
